@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npx nodemon --legacy-watch --exec NODE_OPTIONS=--inspect directus start",
+    "start": "npx directus start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "directus": "^9.23.3",
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.1.6"
+  }
+}
